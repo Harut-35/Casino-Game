@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+     "main main main main main"
+     "footer footer footer footer footer";
+}
+
+body {
+ background:linear-gradient( #360602, #010100, green);
+}
+
+
+
+
+
+
+.conte {
+ position: relative;
+ left: 400px;
+ bottom: 35px;
+ 
+}
+
+
+.conte input {
+    margin: 10px;
+}
+
+
+p {
+    font-size: 40px;
+    color: green;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    
+    
+}
+
+
+
+
+
+
+.imgduck {
+    width: 30%;
+    height: 300px;
+    border-radius: 60px;
+    position: relative;
+    left: 630px;
+    top: 80px;
+}
+
+
+
+
+#hint  {
+    width: auto;
+    height: 30px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+#coins {
+    width: auto;
+    height: 30px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+#random {
+    width: auto;
+    height: 30px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+#result {
+    width: auto;
+    height: 30px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+
+#submite {
+    width: 20%;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    right: 450px;
+    border: none;
+    background-color: silver;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+
+}
+
+#submite:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
